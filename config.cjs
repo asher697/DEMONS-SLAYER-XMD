@@ -2,7 +2,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Demon-Slayer~WZj0KrAR",
+  SESSION_ID: process.env.SESSION_ID || "Demo-Slayer~8dQ00QZZ#dl_LsL1kZG3KVbMPf9x2xKKyjE_yUTrZL5_rHnIcmRs",
   PREFIX: process.env.PREFIX || '.',
   //let's add menu captions by lord joel
   BOT_NAME: process.env.BOT_NAME || "Demon Slayer",
@@ -27,9 +27,9 @@ const config = {
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false,
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "private",
-  OWNER_NAME: process.env.OWNER_NAME || "Marisel",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "218942841878",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "254740007567",
+  OWNER_NAME: process.env.OWNER_NAME || "Ashera",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "263786484652",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "263786484652",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false,
 };
