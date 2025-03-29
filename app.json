@@ -9,7 +9,7 @@
       "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "Demo-Slayer~8dQ00QZZ#dl_LsL1kZG3KVbMPf9x2xKKyjE_yUTrZL5_rHnIcmRs"
     },
     "MODE": {
       "description": "mode public or self",
